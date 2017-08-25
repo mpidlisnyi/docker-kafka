@@ -1,6 +1,7 @@
 FROM java:openjdk-8-jre
 MAINTAINER Maksym Pidlisnyi <maksim@nightbook.info>
 
+
 ENV KAFKA_VERSION 0.10.0.0
 ENV KAFKA_HOME /usr/local/kafka
 ENV SCALA_VERSION 2.10
