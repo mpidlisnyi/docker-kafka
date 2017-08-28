@@ -2,7 +2,7 @@ FROM java:openjdk-8-jre
 MAINTAINER Maksym Pidlisnyi <maksim@nightbook.info>
 
 
-ENV KAFKA_VERSION 0.10.0.1
+ENV KAFKA_VERSION 0.10.1.0
 ENV KAFKA_HOME /usr/local/kafka
 ENV SCALA_VERSION 2.10
 ENV BASENAME kafka_${SCALA_VERSION}-${KAFKA_VERSION}
