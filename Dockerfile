@@ -6,7 +6,7 @@ ENV KAFKA_VERSION 0.9.0.0
 ENV KAFKA_HOME /usr/local/kafka
 ENV SCALA_VERSION 2.10
 ENV BASENAME kafka_${SCALA_VERSION}-${KAFKA_VERSION}
-ENV MIRROR_URL http://apache.mirrors.spacedump.net
+ENV MIRROR_URL http://archive.apache.org
 ENV PACKAGE_URL ${MIRROR_URL}/kafka/${KAFKA_VERSION}/${BASENAME}.tgz
 ENV PATH ${PATH}:${KAFKA_HOME}/bin
 
