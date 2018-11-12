@@ -2,9 +2,9 @@ FROM java:openjdk-8-jre
 MAINTAINER Maksym Pidlisnyi <maksim@nightbook.info>
 
 
-ENV KAFKA_VERSION 0.9.0.0
+ENV KAFKA_VERSION 1.0.0
 ENV KAFKA_HOME /usr/local/kafka
-ENV SCALA_VERSION 2.10
+ENV SCALA_VERSION 2.12
 ENV BASENAME kafka_${SCALA_VERSION}-${KAFKA_VERSION}
 ENV MIRROR_URL http://archive.apache.org
 ENV PACKAGE_URL ${MIRROR_URL}/dist/kafka/${KAFKA_VERSION}/${BASENAME}.tgz
